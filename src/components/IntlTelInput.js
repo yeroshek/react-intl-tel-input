@@ -1179,6 +1179,7 @@ class IntlTelInput extends Component {
       (targetClass &&
         targetClass.indexOf('country') === -1 &&
         targetClass.indexOf('selected-flag') === -1 &&
+        targetClass.indexOf('selected-dial-code') === -1 &&
         targetClass.indexOf('iti-flag') === -1 &&
         targetClass.indexOf('iti-arrow') === -1)
     ) {
